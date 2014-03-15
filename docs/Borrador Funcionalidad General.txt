@@ -1,0 +1,40 @@
+yoAnimal
+---------------------------------------------------------------------------------------
+La App basara su funcionalidad en la geo-posición del usuario. De esta forma cuando un 
+usuario abra la App el sistema obtendrá sus datos geo-posicionales y listara todos los
+animales perdidos en un radio de 5Km(configurable de 1-10km).
+
+Funcionalidad:
+- Listara animales perdidos mas cercanos
+- Visualizar ficha de animal perdido y comentarios.
+- Añadir comentario a ficha de animal perdido
+- Crear ficha de animal perdido: Foto, ultima posición conocida, y datos cardinales.
+- Aviso de animal encontrado, se enviara entonces mensaje a dueño.
+- Filtros: Ultimos animales perdidos, Animales perdidos mas cercanos a nuestra posición
+(esta se cargara al inicio), Animales encontrados.
+
+Como funcionara:
+Mensajes: Cada vez que alguien incluya comentario el dueño recibirá un aviso. Si se 
+encuentra el animal perdido el dueño recibirá aviso con los datos de la persona que lo 
+encontro.
+
+Crear ficha: En la ficha se incluirán datos como: Nombre, raza, máximo 4 fotos siendo una 
+la principal, datos especiales sobre el animal, y dentro de un mapa se podrá seleccionar
+la ultima posición conocida.
+
+Comentarios : Se podrá asociado a la ficha del animal ir añadiendo comentarios de usuarios
+que pudieran haber visto al animal perdido, en cada comentario ira siempre asociado la 
+geo-posición de donde se puedo ver al animal y se podrá añadir una foto. Lo ideal seria
+que hubiera una opción que dibujara en el mapa una pequeña ruta basada en las posiciones 
+donde se puedo ver al animal perdido.
+
+Funcionalidades adicionales:
+
+Para peña muy concienciada, estaría bien una funcionalidad que enviase un mensaje aquellas 
+personas que llevaran app abierta y pasaran cerca de la posición de un avistamiento 
+ocurrido hace menos de 20 minutos y no mas lejos de un radio de entre 50-100m
+
+
+
+
+
