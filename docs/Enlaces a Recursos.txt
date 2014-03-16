@@ -9,3 +9,7 @@ Obtener coordenadas pulsando en el mapa
 --------------------------------------------------------------------------------
 http://stackoverflow.com/questions/4177305/get-coordinates-on-tapping-map-in-android
 
+Logado con Google
+------------------------------------------------------------------------------------
+http://stackoverflow.com/questions/9966831/using-google-account-to-log-in-on-android-application
+
