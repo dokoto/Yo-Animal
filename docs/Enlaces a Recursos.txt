@@ -1,0 +1,8 @@
+Libreria para realizar queries con Coordenadas en DataStore App Engine
+--------------------------------------------------------------------------------
+http://code.google.com/p/geomodel/
+Version Java: http://code.google.com/p/javageomodel/
+StackOverFlow discusion sobre GeoHashing
+http://stackoverflow.com/questions/2060219/google-app-engine-geohashing
+
+
