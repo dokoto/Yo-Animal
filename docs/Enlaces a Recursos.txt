@@ -5,4 +5,7 @@ Version Java: http://code.google.com/p/javageomodel/
 StackOverFlow discusion sobre GeoHashing
 http://stackoverflow.com/questions/2060219/google-app-engine-geohashing
 
+Obtener coordenadas pulsando en el mapa
+--------------------------------------------------------------------------------
+http://stackoverflow.com/questions/4177305/get-coordinates-on-tapping-map-in-android
 
