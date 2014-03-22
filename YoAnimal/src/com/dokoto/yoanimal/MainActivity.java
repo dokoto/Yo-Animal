@@ -1,6 +1,6 @@
 package com.dokoto.yoanimal;
 
-import com.dokoto.yoanimal.lastanimalslosed.FragmentLastAnimalsLosed;
+import com.dokoto.yoanimal.lastanimalslosed.LastAnimalsLosedFragment;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -27,7 +27,7 @@ public class MainActivity extends Activity
 		switch (groupPosition)
 		{
 		case 0:
-			fragment = new FragmentLastAnimalsLosed();
+			fragment = new LastAnimalsLosedFragment();
 		default:
 		}
 

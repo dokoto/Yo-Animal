@@ -8,19 +8,52 @@
     <ImageView
         android:id="@+id/lose_animal_photo"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="150dp"        
         android:scaleType="centerCrop"
-        android:src="@drawable/fake_cat_1" />
+        android:src="@drawable/fake_cat_1"/>
 
-    <TextView
+    <TextView  
         android:id="@+id/lose_animal_name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent" 
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/default_margin"
         android:layout_alignBottom="@+id/lose_animal_photo"
         android:layout_alignLeft="@+id/lose_animal_photo"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:background="@drawable/bg_image_mask_left"
+        android:paddingLeft="5dp"
+        android:text="Jacinto" 
+        android:gravity="left"
+        android:textColor="@color/text_white" 
         android:textSize="@dimen/text_size_xxlarge"
-        android:textStyle="bold"
-        android:text="Jacinto" />
-    
+        android:textStyle="bold" /> 
+
+    <TextView 
+        android:id="@+id/lose_animal_for_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lose_animal_photo"
+        android:layout_alignTop="@+id/lose_animal_photo"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:background="@drawable/bg_image_mask_right"
+        android:paddingRight="5dp"
+        android:gravity="right"
+        android:text="Visto hace 15 min"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/lose_animal_last_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lose_animal_for_days"        
+        android:layout_marginRight="@dimen/default_margin"
+        android:background="@drawable/bg_image_mask_right"   
+        android:paddingRight="5dp"
+        android:gravity="right"     
+        android:text="Avd. Portugal 71"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/text_size_small" />
+
 </RelativeLayout>

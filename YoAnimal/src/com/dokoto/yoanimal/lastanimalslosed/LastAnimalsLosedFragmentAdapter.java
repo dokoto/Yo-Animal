@@ -4,6 +4,11 @@ import com.dokoto.yoanimal.R;
 import com.dokoto.yoanimal.model.Animal;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.PorterDuffXfermode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +16,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class FragmentAdapterLastAnimalsLosed extends BaseAdapter
+public class LastAnimalsLosedFragmentAdapter extends BaseAdapter
 {
 	private LayoutInflater inflater;
 	private ViewHolder viewHolder;
@@ -22,9 +27,12 @@ public class FragmentAdapterLastAnimalsLosed extends BaseAdapter
 	{
 		ImageView animal_photo;
 		TextView animal_name;
+		TextView last_saw;
+		TextView last_place;
+		
 	}
 
-	public FragmentAdapterLastAnimalsLosed(LayoutInflater inflater, Animal[] datas, Context context)
+	public LastAnimalsLosedFragmentAdapter(LayoutInflater inflater, Animal[] datas, Context context)
 	{
 		this.inflater = inflater;
 		this.context = context;
@@ -59,6 +67,8 @@ public class FragmentAdapterLastAnimalsLosed extends BaseAdapter
 			
 			viewHolder.animal_name = (TextView) convertView.findViewById(R.id.lose_animal_name);
 			viewHolder.animal_photo = (ImageView) convertView.findViewById(R.id.lose_animal_photo);
+			viewHolder.last_place = (TextView) convertView.findViewById(R.id.lose_animal_last_position);
+			viewHolder.last_saw = (TextView) convertView.findViewById(R.id.lose_animal_for_days);
 			
 			convertView.setTag(viewHolder);
 
@@ -67,9 +77,12 @@ public class FragmentAdapterLastAnimalsLosed extends BaseAdapter
 		}
 		
 		viewHolder.animal_name.setText(animals[position].name);
-		viewHolder.animal_photo.setImageDrawable(parent.getResources().getDrawable(animals[position].fake_photo));		
-		
+		viewHolder.animal_photo.setImageDrawable(parent.getResources().getDrawable(animals[position].fake_photo));
+		viewHolder.last_place.setText(animals[position].last_place);
+		viewHolder.last_saw.setText(animals[position].last_time);
+		//viewHolder.animal_photo.setImageDrawable(parent.getResources().getDrawable(R.drawable.bg_image_mask));
+		//viewHolder.animal_photo.setBackground(parent.getResources().getDrawable(animals[position].fake_photo));
+
 		return convertView;
 	}
-
 }

@@ -12,10 +12,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-public class FragmentLastAnimalsLosed extends Fragment implements IBackEndProccess
+public class LastAnimalsLosedFragment extends Fragment implements IBackEndProccess
 {
-	private FragmentControllerLastAnimalsLosed controller;
-	private FragmentAdapterLastAnimalsLosed mAdapter;
+	private LastAnimalsLosedFragmentController controller;
+	private LastAnimalsLosedFragmentAdapter mAdapter;
 	private ListView animalLosedList;
 
 	@Override
@@ -30,7 +30,7 @@ public class FragmentLastAnimalsLosed extends Fragment implements IBackEndProcce
 
 		final View ViewLastAnimalsLosed = inflater.inflate(R.layout.fragment_last_animals_losed, container, false);
 		animalLosedList = (ListView) ViewLastAnimalsLosed.findViewById(R.id.list);
-		controller = new FragmentControllerLastAnimalsLosed(this);
+		controller = new LastAnimalsLosedFragmentController(this);
 		controller.downLoadDatas();
 		
 		return ViewLastAnimalsLosed;
@@ -47,7 +47,7 @@ public class FragmentLastAnimalsLosed extends Fragment implements IBackEndProcce
 	{
 		if (mAdapter == null)
 		{
-			mAdapter = new FragmentAdapterLastAnimalsLosed(getActivity().getLayoutInflater(), (Animal[])controller.getDatas(), getActivity());
+			mAdapter = new LastAnimalsLosedFragmentAdapter(getActivity().getLayoutInflater(), (Animal[])controller.getDatas(), getActivity());
 			animalLosedList.setAdapter(mAdapter);
 		}
 	}
