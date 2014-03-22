@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="DokotoBase" parent="android:Theme.Light"></style>
+
+    <style name="DokotoTheme" parent="DokotoBase">
+        <item name="android:windowActionBar">false</item>
+		<item name="android:windowTitleSize">0dp</item>
+    </style>
+
+    <style name="Dokoto.Scroll" parent="DokotoTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="Dokoto.Scroll.ListView" parent="Dokoto.Scroll">
+        <item name="android:dividerHeight">0dip</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/list_selector_holo_light</item>
+    </style>
+
+    <style name="NextInit.Container.Box" parent="DokotoTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:layout_marginTop">@dimen/default_margin_big</item>
+        <item name="android:background">@drawable/bg_box_default</item>
+    </style>
+
+    <style name="NextInit.Container.Box.NoMargin" parent="DokotoTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:background">@drawable/bg_box_default</item>
+    </style>
+
+</resources>
