@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="app_color">#00a6f7</color>
-    <color name="bg_loader">#CC000000</color>
- 	<color name="bg_app_color">#EDEDED</color>
-    
-	<color name="bg_footer">#1F1F1F</color>
-
-	<color name="text_gray">#535353</color>
-	<color name="text_blue">#E4EFF5</color>
-	<color name="text_white">#FFFFFF</color>
+    <color name="app_color">#FFFFFF</color>	
+	<color name="app_red">#EE5557</color>
+	<color name="app_red_strong">#EE2D00</color>	
+	<color name="app_blue">#00ACC9</color>
+	<color name="app_blue_strong">#0077A2</color>	
+	<color name="app_green">#85C202</color>
+	<color name="app_green_strong">#28C202</color>	
+	<color name="app_matte_red">#C2151B</color>	
+	<color name="app_dark">#3D5557</color>
 	
-	<color name="bg_separator">#dcd8d8</color>
+	
+	
 	
 </resources>

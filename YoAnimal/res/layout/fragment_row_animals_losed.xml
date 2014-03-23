@@ -8,8 +8,9 @@
     <ImageView
         android:id="@+id/lose_animal_photo"
         android:layout_width="match_parent"
-        android:layout_height="150dp"        
+        android:layout_height="@dimen/box_height_default"        
         android:scaleType="centerCrop"
+        android:contentDescription="@string/descrip_lose_animal_photo"
         android:src="@drawable/fake_cat_1"/>
 
     <TextView  
@@ -21,10 +22,10 @@
         android:layout_marginLeft="@dimen/default_margin"
         android:layout_marginBottom="@dimen/default_margin"
         android:background="@drawable/bg_image_mask_left"
-        android:paddingLeft="5dp"
-        android:text="Jacinto" 
+        android:paddingLeft="@dimen/default_padding_small"
+        android:text="@string/fake_animal_name" 
         android:gravity="left"
-        android:textColor="@color/text_white" 
+        android:textColor="@color/app_color" 
         android:textSize="@dimen/text_size_xxlarge"
         android:textStyle="bold" /> 
 
@@ -37,10 +38,11 @@
         android:layout_marginTop="@dimen/default_margin"
         android:layout_marginRight="@dimen/default_margin"
         android:background="@drawable/bg_image_mask_right"
-        android:paddingRight="5dp"
-        android:gravity="right"
-        android:text="Visto hace 15 min"
-        android:textColor="@color/text_blue"
+        android:paddingRight="@dimen/default_padding_small"
+        android:gravity="right" 
+        android:text="@string/fake_last_saw"
+        android:textColor="@color/app_matte_red"
+        android:textStyle="bold"
         android:textSize="@dimen/text_size_small" />
 
     <TextView
@@ -50,10 +52,11 @@
         android:layout_below="@+id/lose_animal_for_days"        
         android:layout_marginRight="@dimen/default_margin"
         android:background="@drawable/bg_image_mask_right"   
-        android:paddingRight="5dp"
+        android:paddingRight="@dimen/default_padding_small"
         android:gravity="right"     
-        android:text="Avd. Portugal 71"
-        android:textColor="@color/text_blue"
+        android:text="@string/fake_address"
+        android:textColor="@color/app_matte_red"
+        android:textStyle="bold"
         android:textSize="@dimen/text_size_small" />
 
 </RelativeLayout>

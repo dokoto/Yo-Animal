@@ -1,5 +1,16 @@
 <resources>
 
     <string name="app_name">YoAnimal</string>
+    
+    <string name="fake_address">Avd. Portugal 71</string>
+    <string name="fake_animal_name">Jacinto</string>
+    <string name="fake_last_saw">Visto hace 15 min</string>
+    
+    <string name="descrip_lose_animal_photo">Foto del animal perdido</string>
+    <string name="descrip_menu_menu">Icono de acceso al menu</string>
+    <string name="descrip_menu_alarm">Icono de acceso a la creacion ficha animal perdido</string>
+    <string name="descrip_menu_comments">Icono de accesp a commentarios sobre el animal perdido</string>
+
+    
 
 </resources>
