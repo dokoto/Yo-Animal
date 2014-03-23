@@ -4,11 +4,6 @@ import com.dokoto.yoanimal.R;
 import com.dokoto.yoanimal.model.Animal;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.graphics.PorterDuffXfermode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -80,9 +75,7 @@ public class LastAnimalsLosedFragmentAdapter extends BaseAdapter
 		viewHolder.animal_photo.setImageDrawable(parent.getResources().getDrawable(animals[position].fake_photo));
 		viewHolder.last_place.setText(animals[position].last_place);
 		viewHolder.last_saw.setText(animals[position].last_time);
-		//viewHolder.animal_photo.setImageDrawable(parent.getResources().getDrawable(R.drawable.bg_image_mask));
-		//viewHolder.animal_photo.setBackground(parent.getResources().getDrawable(animals[position].fake_photo));
-
+	
 		return convertView;
 	}
 }
