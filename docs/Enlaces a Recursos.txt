@@ -13,6 +13,11 @@ Logado con Google
 ------------------------------------------------------------------------------------
 http://stackoverflow.com/questions/9966831/using-google-account-to-log-in-on-android-application
 
+
+REST y Image caching
+------------------------------------------------------------------------------------
+http://www.androidhive.info/2014/05/android-working-with-volley-library-1/
+
 Software
 ------------------------------------------------------------------------------------
 http://pencil.evolus.vn/
