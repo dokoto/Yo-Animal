@@ -36,3 +36,10 @@ http://pencil.evolus.vn/
 http://krita.org/
 http://www.pencil-animation.org/
 
+
+REPOSITORIO:
+------------------------------------------------------------------------------------
+https://bitbucket.org/manuel_alfaro_sierra/yoanimal
+usuario:manuel_alfaro_sierra	
+pass:7yg y lo que sigue
+
