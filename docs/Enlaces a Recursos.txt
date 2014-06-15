@@ -14,9 +14,21 @@ Logado con Google
 http://stackoverflow.com/questions/9966831/using-google-account-to-log-in-on-android-application
 
 
-REST y Image caching
+ANDROID REST y Image caching
 ------------------------------------------------------------------------------------
 http://www.androidhive.info/2014/05/android-working-with-volley-library-1/
+
+
+APP ENGINE REST
+------------------------------------------------------------------------------------
+Google Cloud endPoints:
+http://www.nilzorblog.com/2013/02/a-google-cloud-endpoints-hello-world.html
+
+Jersey:
+http://www.nilzorblog.com/2013/02/jersey-vs-google-cloud-endpoints-as.html
+
+Android+App Engine LEELO COJONES !!
+https://bradablog.appspot.com/?p=94
 
 Software
 ------------------------------------------------------------------------------------
